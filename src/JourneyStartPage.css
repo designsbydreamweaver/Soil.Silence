@@ -1,0 +1,50 @@
+.journey-start-container {
+  background-image: url('/assets/vines2.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #e0e0e0;
+  font-family: 'Georgia', serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.earth-reveal-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 3rem;
+  border: 1px solid #3e3e3e;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 10vh auto;
+  text-align: center;
+  box-shadow: 0 0 40px rgba(100, 0, 0, 0.6);
+}
+
+.journey-title {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color: #bfa37a;
+  text-shadow: 0 0 5px #000;
+}
+
+.journey-description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.continue-button {
+  background-color: #4a2e2a;
+  color: #f3e9dc;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.continue-button:hover {
+  background-color: #2f1b1a;
+}
